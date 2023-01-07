@@ -70,4 +70,121 @@ header{
 }
 .box-container{
     display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    align-items: center;
 }
+.box-icon{
+    padding-left: 30px;
+}
+.boxtitle{
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+}
+.box-description{
+    font-weight: 500;
+     font-size: 25px;
+     text-align: center;
+     padding-top: 20px;
+}
+.box-img{
+    display: flex;
+    align-items: center;
+}
+.call-now{
+    background-image: linear-gradient(to right, #005FAC, #005fac05),url(../images/watch.png) ;
+    
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    border-radius: 5px;
+   
+    
+}
+.call-title{
+    padding: 50px 0 20px 20px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    
+
+    
+}
+.btn-2{
+    height: 64px;
+    margin-left:20px ;
+    width: 160px;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    color: #005FAC;
+    margin-bottom: 30px;
+
+
+}
+/* footer-style */
+footer{
+    margin-top: 30px;
+    background: #151414;
+    
+}
+.footer-container{
+    display: flex;
+    color: #FFFFFF;
+    align-items: left;
+    
+   
+}
+.footer-text{
+    height: 317px;
+    width: 400px;
+    margin :130px 400px 100px 230px;
+}
+.footer-title{
+    padding-left: 40px;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.footer-description{
+    padding-left: 40px;
+
+}
+.icon{
+    padding-top: 20px;
+    display: flex;
+    margin-left: 0;
+}
+.contact{
+    height: 317px;
+    width: 400px;
+    margin: 130px 230px 100px 50px;
+    
+    
+    
+}
+#email{
+     height: 64px;
+     width: 260px;
+     border: none;
+     border-radius: 5px;
+     margin-left: 25px;
+}
+.btn-3{
+    height: 64px;
+    margin-left:25px ;
+    width: 160px;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #005FAC;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+
+}
+
+
